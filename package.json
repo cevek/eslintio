@@ -1,26 +1,25 @@
 {
-  "name": "eslint-plugin-eslintio",
-  "version": "1.0.0",
-  "description": "Opinionated eslint rules",
-  "keywords": [
-    "eslint",
-    "eslintplugin",
-    "eslint-plugin"
-  ],
-  "author": "cevek",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "node tests/lib/rules/sort-keys"
-  },
-  "dependencies": {
-    "requireindex": "~1.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^3.9.1",
-    "mocha": "^3.1.2"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "license": "ISC"
+    "name": "eslint-plugin-eslintio",
+    "version": "1.0.0",
+    "description": "Opinionated eslint rules",
+    "keywords": [
+        "eslint",
+        "eslintplugin",
+        "eslint-plugin"
+    ],
+    "author": "cevek",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "node tests/lib/rules/sort-keys"
+    },
+    "devDependencies": {
+        "eslint": "^6.5.1"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "requireindex": "^1.2.0"
+    }
 }
